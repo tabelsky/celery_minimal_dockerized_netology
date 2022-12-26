@@ -16,7 +16,7 @@ celery_minimal_dockerized_netology-redis-1  | ............ * Ready to accept con
 в другой вкладке терминала запускаем celery 
 
 ```shell
-docker-compose --env-file .env.test up app
+docker-compose --env-file .env.test up celery
 ```
 
 должен получится вывод без ошибок  наподобие такого:
